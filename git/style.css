@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    height:9vh;
+    width:100%;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid #baba;
+    justify-content: space-between;
+}
+nav .lang{
+    width: 20%;
+    text-align: center;
+    align-items: center;
+    
+
+}
+
+  .button1 {
+    background-color: rgba(201, 219, 179, 0.781); 
+    color: rgb(0, 0, 0); 
+    border: 2px solid #9ccf9e;
+    height: 5vh;
+    width: 6%;
+    left: 0%;
+  }
+  
+  .button1:hover {
+    background-color: #9e625e;
+    color: rgba(12, 2, 2, 0.993);
+  }
+  nav .menu{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  /* nav .menu ul a{
+    width: 50%;
+    justify-content: space-between;
+
+  } */
+
+  .table-box
+  {
+      margin: 5px auto;
+
+  }
+  
+  .table-row{
+      display: table;
+      width: 100%;
+      margin: 10px auto;
+      font-family: sans-serif;
+      background: transparent;
+      padding: 12px 0;
+      color: #555;
+      font-size: 13px;
+      box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3); 
+  } 
+  .table{
+    display: flex;
+    justify-content: space-between;
+  }
+  .slider{
+    position: fixed;
+    left: 1px;
+    width: 250vh;
+    height: 100%;
+  }
+  .slider ul a{
+    font-display: black;
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    line-height: 5vh;
+
+  }
+  .add{
+    height:9vh;
+    width:100%;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid #baba;
+    justify-content: space-between;
+
+  }
+
+
+  
